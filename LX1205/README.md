@@ -7,7 +7,7 @@
 ## Nominal values
 
 * Input: 100-240VAC, 50/60Hz
-* Output: 12VDC, 5A
+* Output: 12VDC, 5A (60W)
 
 ## Hardware
 
