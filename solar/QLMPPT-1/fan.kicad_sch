@@ -1,0 +1,20 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 938844ca-737a-40d3-a313-0fd926cb5abb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "U7: EG1192H DC/DC controller\nC25: Elko, 100V, 22uF\nL3\nD8\nC29\nD9\n\n"
+    (at 126.365 86.36 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 53bb6d70-9981-4bcc-865d-a7613c20107a)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

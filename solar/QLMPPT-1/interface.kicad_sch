@@ -1,0 +1,20 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 938844ca-737a-40d3-a313-0fd926cb5abb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "boostSolarCharger0.2.1B\nSeparate PCB: 4-pin interface\nD1: red\nD2\nR1, R2, R3, R4, R5\nR4: D1 current limiter\nR5: D2 current limiter\nU1: MCU 300MP249P\nC1: MCU bypass\nJ1: 4-pin programming/uart header\nSW1: tactile button\n"
+    (at 130.81 100.33 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 838bf179-a58d-4258-9770-6b81fb90eb51)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

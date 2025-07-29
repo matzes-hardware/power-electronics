@@ -1,0 +1,20 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 938844ca-737a-40d3-a313-0fd926cb5abb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "USB1: 4-pin USB-A header, +5V & GND connected\nU2: EG1192H DC/DC controller\nC3: Elko, 100V, 22uF\nC4\nL2: 470\nD3, D5\nC23: 16V, 100uF\nC20, C11, C15\nR11, R13, R24, R27\nR32 (fuse)"
+    (at 129.54 99.06 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6c799c0c-2514-4155-aaab-79c6604637b8)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
