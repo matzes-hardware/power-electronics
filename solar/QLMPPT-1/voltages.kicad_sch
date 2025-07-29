@@ -1,0 +1,44 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 938844ca-737a-40d3-a313-0fd926cb5abb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "BAT: R16, R17, R18, C12\n" (at 134.62 81.915 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 364a3462-c7be-4e03-abe9-a92666a91638)
+  )
+  (text "PV: R21, R22, R23, C17" (at 135.89 106.68 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 365820e8-0ed4-4319-b30a-82b6c9a5340c)
+  )
+  (text "Voltage measurements" (at 133.985 68.58 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 800407dd-f7ea-478e-b5e6-caca36b663e1)
+  )
+
+  (hierarchical_label "BAT+" (shape bidirectional) (at 114.3 78.74 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6543397e-d72e-46b7-a236-bc7ec7ad6d5d)
+  )
+  (hierarchical_label "BAT-" (shape bidirectional) (at 113.665 84.455 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8123047e-d008-44e1-bc70-360fd7e33811)
+  )
+  (hierarchical_label "PV+" (shape bidirectional) (at 115.57 104.14 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8f56b8a0-eb56-4b29-b964-413dd872643e)
+  )
+  (hierarchical_label "PV-" (shape bidirectional) (at 114.935 109.855 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid cd70663d-af2e-4aa2-a643-9e523670d81d)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
