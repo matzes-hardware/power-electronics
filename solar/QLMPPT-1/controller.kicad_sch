@@ -1,0 +1,20 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 938844ca-737a-40d3-a313-0fd926cb5abb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "U6: 300MP249Z\nJ1: 4-pin programming/uart header\nJ2: 4-pin uart interface to interface board\n\nU3: 78L05\n\nR36, R38\nC7, C13, C22, C19\nR39, R40, R41\nR16, R17, R18\nR21, R22, R23\nC12, C17\n"
+    (at 139.065 111.125 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e4f61de1-c2aa-48fc-a45c-58243054cf9d)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

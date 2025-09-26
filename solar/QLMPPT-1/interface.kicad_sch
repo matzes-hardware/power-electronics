@@ -8,10 +8,31 @@
   )
 
 
+  (text "UART high @ 5V, low @ 0V" (at 130.81 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0bbd5aca-5e64-4a0a-8c3b-038428802c02)
+  )
   (text "boostSolarCharger0.2.1B\nSeparate PCB: 4-pin interface\nD1: red\nD2\nR1, R2, R3, R4, R5\nR4: D1 current limiter\nR5: D2 current limiter\nU1: MCU 300MP249P\nC1: MCU bypass\nJ1: 4-pin programming/uart header\nSW1: tactile button\n"
     (at 130.81 100.33 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 838bf179-a58d-4258-9770-6b81fb90eb51)
+  )
+
+  (hierarchical_label "RXI" (shape input) (at 69.215 66.675 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 60cf8dde-78e6-46c2-a087-0f3325092bf0)
+  )
+  (hierarchical_label "VCC" (shape passive) (at 68.58 52.07 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 648a404f-bcd0-461d-a918-048a8d71bcba)
+  )
+  (hierarchical_label "GND" (shape passive) (at 68.58 59.69 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid aa8f783e-a551-4ea7-8da0-48cb7c462da7)
+  )
+  (hierarchical_label "TXO" (shape output) (at 69.215 74.295 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b867954a-e8a9-4ab2-809f-3eb173863c2e)
   )
 
   (sheet_instances

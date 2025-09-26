@@ -279,7 +279,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 38805e9b-3571-444f-9ccf-1f1f4ac95523)
   )
-  (text "R7, R8\n" (at 133.985 45.085 0)
+  (text "R7, R8\n" (at 130.81 46.355 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3a989d0a-62cd-466d-b42e-df2b17cce3b4)
   )
