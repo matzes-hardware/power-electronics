@@ -1,0 +1,3 @@
+[submodule "solar/jblance-mppt-mqtt"]
+	path = solar/jblance-mppt-mqtt
+	url = git@github.com:jblance/mpp-solar.git
