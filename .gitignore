@@ -1,6 +1,7 @@
 
 # KiCad
 *-backups/
+fp-info-cache
 
 # Temporary
 *.tmp
