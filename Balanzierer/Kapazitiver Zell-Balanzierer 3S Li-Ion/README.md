@@ -21,3 +21,8 @@ Der Gate-Treiber hat (nur) zwei Steuerleitungen, die jeweils zu allen drei FET-I
 Von den fünf Kondensatoren sind drei in Serie angeordnet und direkt mit den Batterieanschlüssen verbunden.
 Zwei weitere sind separat, ebenfalls in Serie, und können vermutlich über die drei FETs mit den anderen dreien verbunden werden.
 
+## Links
+
+* Ye and Cheng (2016): An Automatic Switched-Capacitor Cell Balancing Circuit for Series-Connected Battery Strings
+  * https://www.mdpi.com/1996-1073/9/3/138
+
