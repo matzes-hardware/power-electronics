@@ -585,7 +585,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b82b90b8-2741-45ff-a8ac-5f43997fabf5)
   )
-  (wire (pts (xy 104.14 95.25) (xy 117.475 95.25))
+  (wire (pts (xy 100.965 95.25) (xy 117.475 95.25))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c0825f0c-fe08-44a4-84e3-823be41866a9)
   )
@@ -626,13 +626,18 @@
     (uuid fe91d4c6-4e46-43cf-aae8-c7f8b2a1cc02)
   )
 
+  (text "Warum haben sie denn hier Dioden genommen?\nDer Treiber erzeugt High- und Low-Side-Gate-Pegel.\nDa könnte man sich einiges an Wärmeverlusten sparen,\nwenn man nicht den ganzen Strom über die Dioden pressen würde.\n"
+    (at 174.625 64.135 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3c3f84a6-1104-447d-8cce-0fbc3b453b71)
+  )
   (text "U4: EG2132 totem pole gate driver\n  low-side output controls T1 (n.p.) and T2 gates\nC6: U4 bypass\nD2: bootstrap diode\nC14\nR15, R14, R19\nRNTC1"
     (at 135.255 46.355 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b0794517-9202-43ae-abcd-15a5b3b471bb)
   )
 
-  (label "GATE" (at 104.14 95.25 0)
+  (label "GATES_LOWSIDE" (at 100.965 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c50e4357-60bb-4504-b4e0-d4506558eec8)
   )
@@ -860,14 +865,32 @@
     (path "/be9f5b88-6f56-452e-9b38-e3ea426375a9"
       (reference "C8") (unit 1) (value "100V,220uF") (footprint "")
     )
+    (path "/9e4dd27c-8e1b-4c51-ad64-2ada413c46a3"
+      (reference "C9") (unit 1) (value "C") (footprint "")
+    )
+    (path "/219b5efc-4843-4ea5-8e07-64985af50eae"
+      (reference "C18") (unit 1) (value "C") (footprint "")
+    )
     (path "/4f02867a-7c2f-4c41-b9bd-b4958cb5319c"
       (reference "C21") (unit 1) (value "100V,220uF") (footprint "")
     )
     (path "/9da221f1-1007-4516-aa9e-7091cca33f29"
       (reference "C24") (unit 1) (value "100V,220uF") (footprint "")
     )
+    (path "/1eee681b-dc8a-49ce-94eb-3c0bdb231f5c"
+      (reference "DD2") (unit 1) (value "MBR20100") (footprint "")
+    )
+    (path "/9c97b038-096e-4af4-8d5b-ef800d569788"
+      (reference "DD2") (unit 1) (value "MBR20100") (footprint "")
+    )
     (path "/a6520adb-7357-4ce3-b912-ecfc735d2ccf"
       (reference "L1") (unit 1) (value "Power choke") (footprint "")
+    )
+    (path "/4835ca46-a6b1-4095-8301-cbbdf1f05417"
+      (reference "T1") (unit 1) (value "n.p.") (footprint "")
+    )
+    (path "/2ef1900b-23f8-4d9d-9ce6-61794b81b68e"
+      (reference "T2") (unit 1) (value "HY3215") (footprint "")
     )
   )
 )

@@ -558,6 +558,11 @@
     (uuid f7a285e7-cda8-4ef5-a604-c4e615da8498)
   )
 
+  (text "TL431: Adjustable shunt voltage reference\nVref = 2.495V\nVka = 2.5V to 36V\nIka = -100mA to +150mA\nIref = 0.5 to 10mA\n\nBehaves like a regular diode between anode and cathode.\nBehaves like a turned-on bipolar transistor between cathode and anode,\nwhen the Ref input exceeds Vref.\n\nR29 = 10e3\nR28 = 47e3\nVref = 2.495\ndivider = R29/(R28+R29)\nVmin = Vref/divider = 14.2215\n"
+    (at 85.725 113.03 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 105763cb-69c1-4288-bc3c-78a83f2bd0f5)
+  )
   (text "U7: EG1192H DC/DC controller\nPin 1: V+\nPin 2: GND (input)\nPin 3: DCDC_ENABLE\nPin 4: n.c.\nPin 5: to R37\nPin 6: to choke L3\nPin 7: GND (output)\nPin 8: Feedback input\n\nR37: 100R between pins 5 and 6\nC27: bypass between pins 6 and 7\n\nC29: Elko, 100uF, 16V\nC30: same, but ceramic\n\nR46\n\nL3\nD8\n"
     (at 163.195 137.16 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
